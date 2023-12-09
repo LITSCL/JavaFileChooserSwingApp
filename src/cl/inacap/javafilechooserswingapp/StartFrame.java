@@ -63,10 +63,10 @@ public class StartFrame extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				JFileChooser archivo = new JFileChooser();
 				archivo.setDialogTitle("Busque el archivo");
-				int ventana = archivo.showOpenDialog(null); //Esta instrucción habre la ventana que permite seleccionar el archivo.
-				if (ventana == JFileChooser.APPROVE_OPTION) { //Aca se esta consultando si el usuario le dio click al boton "Abrir" (En el caso de que lo haya hecho se ejecuta el código).
-					File fi = archivo.getSelectedFile(); //Esta instrucción contiene la ruta del archivo.
-					textArchivoSeleccionado.setText(String.valueOf(fi)); //Se modifica el texto con la ruta seleccionada (También se puede utilizar el toString para refindir el dato).	
+				int ventana = archivo.showOpenDialog(null); //Esta instrucciÃ³n habre la ventana que permite seleccionar el archivo.
+				if (ventana == JFileChooser.APPROVE_OPTION) { //Aca se esta consultando si el usuario le dio click al boton "Abrir" (En el caso de que lo haya hecho se ejecuta el cÃ³digo).
+					File fi = archivo.getSelectedFile(); //Esta instrucciÃ³n contiene la ruta del archivo.
+					textArchivoSeleccionado.setText(String.valueOf(fi)); //Se modifica el texto con la ruta seleccionada (TambiÃ©n se puede utilizar el toString para refindir el dato).	
 				}
 			}
 		});
