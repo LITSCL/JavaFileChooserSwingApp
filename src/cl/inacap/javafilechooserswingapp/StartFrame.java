@@ -16,7 +16,6 @@ import java.io.File;
 import java.awt.event.ActionEvent;
 
 public class StartFrame extends JFrame {
-
 	private JPanel contentPane;
 	private JTextField textArchivoSeleccionado;
 	private JButton btnSeleccionarArchivo;
